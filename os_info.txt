@@ -1,0 +1,4 @@
+OS info is 
+uname_result(system='Windows', node='LEX-DESKTOP', release='10', version='10.0.19041', machine='AMD64', processor='Intel64 Family 6 Model 79 Stepping 1, GenuineIntel')
+
+Python version is 3.7.7 (tags/v3.7.7:d7c567b08f, Mar 10 2020, 09:44:33) [MSC v.1900 32 bit (Intel)] ('32bit', 'WindowsPE')
