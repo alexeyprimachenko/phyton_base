@@ -21,14 +21,14 @@ print(newString)
 #2        
 string = (input('Введите строку из слов, в которой есть слова, заканчивающееся на букву "o" '))
 list = []
-i = 0 #счётчик для обхода входной строки
-while i < len(string) and string[i] != ":": #проходим, пока не дойдём до знака конца
-    word = "" #временная переменная для заполнения слова
-    while i < len(string) and string[i] != ";"  and string[i] != "," and string[i] != ":": #заполняем слово, пока не встретим знак конца слова (или всего ввода)
+i = 0 
+while i < len(string) and string[i] != ":": 
+    word = "" 
+    while i < len(string) and string[i] != ";"  and string[i] != "," and string[i] != ":": 
         word += string[i]
         i =  i + 1
-    list.append(word) #когда встретим знак конца слова, выйдем из цикла и занесём завершённое слово в массив
-    i = i + 2 #игнорируем ";"
+    list.append(word)
+    i = i + 2 
 x = 0
 for word in list:
     if word[len(word)-1] == 'о' or 'О':
