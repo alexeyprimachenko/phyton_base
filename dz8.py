@@ -74,9 +74,9 @@ print("wins/loses:" + str(wins)+ "/"+str(loses))
 
 
 
-sys.stdout=open("new 1.txt","w")
-print("score_u: "+ str(score_u))
-print("score_c: "+ str(score_c))  
-print("games:"+str(games))
-print("wins/loses:" + str(wins)+ "/"+str(loses))
-sys.stdout.close()
+f = open("test.txt", "w")
+f.write("score_u: "    + str(score_u) + "\n")
+f.write("score_c: "    + str(score_c) + "\n")
+f.write("games: "      + str(games)   + "\n")
+f.write("wins/loses: " + str(wins)    + "/" + str(loses) + "\n")
+f.close()
